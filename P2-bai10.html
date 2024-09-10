@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bai 10</title>
+  </head>
+  <body>
+    <style>
+      form {
+        min-height: 40vh;
+        border: 1px solid #9491a1;
+        background-color: #dad9df;
+
+        width: 30%;
+        margin: 0 auto;
+      }
+      table {
+        margin-left: 40px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+      }
+      h1 {
+        background-color: blue;
+        text-align: center;
+        margin-top: auto;
+        padding: 20px;
+      }
+
+      .sdtemail {
+        width: 183%;
+      }
+      .matkhaumoi {
+        width: 183%;
+      }
+      h2,
+      h4 {
+        margin-left: 41px;
+      }
+      .taisao {
+        text-decoration: none;
+      }
+      input {
+        border-radius: 4px;
+        padding: 8px;
+      }
+      button {
+        padding: 10px 44px;
+        background-color: rgb(28, 165, 18);
+        color: aliceblue;
+        border-radius: 4px;
+      }
+      a {
+        text-decoration: none;
+        color: blue;
+      }
+    </style>
+    <form>
+      <table>
+        <tbody>
+          <h1>facebook</h1>
+          <h2>Đăng ký</h2>
+          <h4>Luôn miễn phí</h4>
+          <tr>
+            <td><input class="hodem" type="text" placeholder="Họ" /></td>
+            <td><input class="ten" type="text" placeholder="Tên" /></td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                class="sdtemail"
+                type="text"
+                placeholder="Số di động hoặc email"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                class="matkhaumoi"
+                type="password"
+                placeholder="Mật khẩu mới"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Ngày sinh</td>
+          </tr>
+          <tr>
+            <td><input type="datetime-local" /></td>
+            <td>
+              <a href="" class="taisao"
+                ><small>Tại sao tôi cần cung cấp ngày sinh của mình?</small></a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio" class="nu" />Nữ
+              <input type="radio" class="nam" />Nam
+            </td>
+          </tr>
+          <tr class="lenh">
+            <td>
+              <small
+                >Bằng cách nhấp vào Tạo tài khoản, bạn đồng ý với
+                <a href="">điều khoản </a> của chúng tôi và rằng bạn đã đọc
+                <a href="">Chính sách dữ liệu</a> của chúng tôi bao gồm
+                <a href="">Sử dụng Cookie</a>. Bạn có thể nhận được thông báo
+                qua SMS từ facebook và có thể bỏ chọn bất kỳ lúc nào.</small
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button name="taotk" value="Ok" type="button" onclick="hello()">
+                <b>Tạo tài khoản</b>
+              </button>
+            </td>
+            <script>
+              function hello() {
+                alert("thanh cong");
+              }
+            </script>
+          </tr>
+          <tr>
+            <td>
+              <a href=""><b>Tạo trang</b></a> danh cho người nổi tiến, nhãn hiệu
+              hoặc doanh nghiệp.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
